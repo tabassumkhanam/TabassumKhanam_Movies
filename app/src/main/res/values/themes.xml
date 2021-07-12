@@ -13,4 +13,39 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+
+
+    <style name="XLargeTextViewRegular" parent="Theme.TabassumKhanam_Movies">
+        <item name="android:textSize">@dimen/xlarge</item>
+    </style>
+
+    <style name="SmallTextViewRegular" parent="Theme.TabassumKhanam_Movies">
+        <item name="android:textSize">@dimen/small</item>
+        <item name="android:textColor">@color/colorDarkGrey</item>
+    </style>
+
+    <style name="VSmallTextViewRegular" parent="Theme.TabassumKhanam_Movies">
+        <item name="android:textSize">@dimen/v_small</item>
+        <item name="android:textColor">@color/colorLightBlack</item>
+    </style>
+
+    <style name="XLargeTextViewBold" parent="Theme.TabassumKhanam_Movies">
+        <item name="android:textSize">@dimen/xlarge</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="MediumTextViewBold" parent="Theme.TabassumKhanam_Movies">
+        <item name="android:textSize">@dimen/medium</item>
+        <item name="android:textColor">@color/colorSubHeading</item>
+    </style>
+
+    <style name="LargeTextViewMedium" parent="Theme.TabassumKhanam_Movies">
+        <item name="android:textSize">@dimen/large</item>
+        <item name="android:textColor">@color/colorHeading</item>
+    </style>
+
+    <style name="SmallTextViewMedium" parent="Theme.TabassumKhanam_Movies">
+        <item name="android:textSize">@dimen/small</item>
+        <item name="android:textColor">@color/colorGreen</item>
+    </style>
 </resources>

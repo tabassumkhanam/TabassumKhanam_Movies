@@ -1,4 +1,4 @@
-package com.toi.tabassumkhanam_movies
+package com.demo.tabassumkhanam_movies
 
 import org.junit.Test
 
